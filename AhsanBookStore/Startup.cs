@@ -49,7 +49,7 @@ namespace AhsanBookStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapDefaultControllerRoute();
             });
         }
     }
